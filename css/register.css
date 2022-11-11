@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: left;
+}
+
+.inner-container{
+    display: flex;
+}
+
+.image{
+    background: url(../img/Mountain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 640px;
+    height: 100%;
+}
+
+.sec-inner-container{
+    padding: 20px;
+    height: fit-content;
+    width: 690px;
+}
+
+.sec-inner-container > h1{
+    text-align: center;
+    color: blue;
+    margin-bottom: 6px;
+}
+
+.sec-inner-container > p{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 22px;
+    color: blue;
+}
+
+input[type=name],
+input[type=email],
+input[type=text],
+input[type=password],
+input[type=cpass],
+select,
+.button,
+input[type=date]{
+    width: 95%;
+    height: 37px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 12px 0;
+    margin-left: 12px;
+}
+
+label{
+    color: hsl(0, 0%, 3%);
+    font-size: 22px;
+    margin-left: 12px;
+    color: blue;
+}
+
+.fname,
+.lname,
+.num,
+.email,
+.gen,
+.date,
+.fav{
+    margin-top: 15px;
+}
+
+.fi{
+    text-align: end;
+    margin: 20px 0;
+    margin-right: 22px;
+    font-size: 22px;
+}
+
+.fi, p> a{
+    text-decoration: none;
+    font-size: 23px;
+}
+
+p >a{
+    color: blue;
+}
+
+.button{
+    border: none;
+    background: hsl(0, 100%, 48%);
+    color: hsl(53, 100%, 98%);
+    margin-top: 15px;
+}
